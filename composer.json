@@ -1,0 +1,36 @@
+{
+    "name": "nickon/yii2-charts",
+    "description": "Yii2 FusionCharts manager",
+    "type": "yii2-module",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/nickon/yii2-charts",
+    "keywords": [
+        "yii",
+        "yii2",
+        "yii 2"
+    ],
+    "authors": [
+        {
+            "name": "nickon",
+            "email": "me@nick-on.name",
+            "homepage": "https://github.com/nickon"
+        }
+    ],
+    "minimum-stability" : "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": "*"
+    },
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://github.com/nickon/yii2-charts.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "nickon\\yii2_charts\\": "src"
+        }
+    }
+}
