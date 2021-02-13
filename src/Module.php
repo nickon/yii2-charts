@@ -3,6 +3,7 @@
 
 namespace nickon\yii2_charts;
 
+use Yii;
 
 class Module extends \yii\base\Module
 {

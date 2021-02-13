@@ -1,0 +1,26 @@
+.chart .dates-filters li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.chart .dates-filters li a.selected {
+    font-weight: bold;
+}
+
+.charts-add-filter .filters-list {
+    padding: 0;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.charts-add-filter .filters-list li a {
+    font-size: 13px;
+}
+
+.charts-add-filter .filters-list a.sel {
+    font-weight: bold;
+}
