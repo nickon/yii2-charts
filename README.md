@@ -1,12 +1,11 @@
-#Yii2 FushionCharts manager
+# Yii2 FushionCharts manager
 
-##Instalation
+## Instalation
 ```bash
 composer require nickon/yii2-charts
 ```
 
-
-##Usage
+## Usage
 ```php
 echo \nickon\yii2_charts\widgets\Charts::widget([
     'settings' => [
